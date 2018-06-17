@@ -1,0 +1,145 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css?family=Lato|Roboto');
+
+body{
+	font-size: 14px;
+	font-family: 'Lato', sans-serif;
+}
+h1, h2, h3, h4, h5{
+	font-family: 'Roboto', sans-serif;
+	text-transform: uppercase;
+}
+/* --Header-- */
+#banner{
+	background: #eee;
+	height: 50px;
+	padding: 20px
+}
+
+/* --Jumbotron CSS-- */
+.jumbotron{
+	background: url('https://lorempixel.com/1920/560/business');
+	color: #ddd;
+	height: 560px;
+}
+
+/* --Menú-- */
+nav{
+	margin: 5px auto;
+}
+#navi{
+	background:#222;
+	padding: 10px;
+}
+.nav-pills > li.active > a, .nav-pills > li.active > a:focus, .nav-pills > li.active > a:hover{
+	background: #5cb85c;
+}
+ul li a{
+	color:#ddd;
+}
+.icon-bar{
+	background:#ddd;
+}
+
+
+#search{
+	margin: 15px auto;
+	padding: 10px;
+	display: inline-block;
+}
+#search_field{
+	border-radius: 0;
+	border: 1px solid #999;
+	box-shadow: none;
+	height: 42px;	
+	width: 500px;
+	margin-top: 2px;
+}
+#sr-button{
+	padding: 8px;
+	border-radius: 0;
+	margin-left:4px;
+	text-transform: uppercase;
+
+}
+.featured-item{
+	margin-bottom: 50px;
+}
+
+.circle{
+	border-radius: 50%;
+	background: #5cb85c;
+	display: inline-flex;
+	margin-top: 30px;
+	height: 150px;
+	vertical-align: middle;
+	width: 150px;
+} 
+.circle i{
+	margin: 50px auto;
+}
+
+#cart{
+	font-size:1.3em;
+	padding: 6px 30px;
+	margin: 30px auto;
+}
+.item{
+	background: #5cb85c;
+	color: #222;
+	display: block;
+	font-weight: 100;
+	height: 170px;
+	margin: 1px;
+	margin-bottom: 20px;
+	padding: 30px;
+	text-align: center;
+	text-transform: uppercase;
+	width: 100%;
+}
+.item i{
+	margin-bottom: 20px;
+}
+.product{
+	margin:0px;
+	border: 1px solid #999;
+	padding: 10px;
+	text-align: center;
+	
+}
+.price{
+	font-size: 1.2em;
+	font-weight: bold;
+	background: #333;
+	color:#5cb85c;
+	padding: 13px;
+	margin: 0px;
+}
+.price button{
+	border: none;
+	border-radius:0px;
+	float:right;
+	padding: 15px 35px;
+	margin: -13px;
+}
+
+footer{
+	background: #222;
+	color:#ddd;
+	margin-top: 40px;
+	padding: 20px;
+}
+#copy{
+	color:#777;
+	text-align: center;
+}
+
+/* Media Queries*/
+
+@media screen and (max-width: 975px) {
+	#banner{
+		height: 100px;
+	}
+}
+
