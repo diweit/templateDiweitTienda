@@ -5,6 +5,7 @@
 body{
 	font-size: 14px;
 	font-family: 'Lato', sans-serif;
+	overflow-x: hidden;
 }
 h1, h2, h3, h4, h5{
 	font-family: 'Roboto', sans-serif;
@@ -46,7 +47,7 @@ ul li a{
 #search{
 	margin: 15px auto;
 	padding: 10px;
-	display: inline-block;
+	display: inline-flex;
 }
 #search_field{
 	border-radius: 0;
@@ -143,3 +144,8 @@ footer{
 	}
 }
 
+@media screen and (max-width: 1074px) {
+	#search_field{
+		width: 250px;
+	}
+}
