@@ -19,9 +19,9 @@ h1, h2, h3, h4, h5{
 }
 
 /* --Jumbotron CSS-- */
-.jumbotron{
-	background: url('https://lorempixel.com/1920/560/business');
-	color: #ddd;
+.site-head{
+	background: url('http://lorempixel.com/1920/560/business');
+	color: #222;
 	height: 560px;
 }
 
@@ -134,6 +134,33 @@ footer{
 #copy{
 	color:#777;
 	text-align: center;
+}
+
+/* producto.html */
+
+.page-head{
+	color: #222;
+	height:200px;
+	background: url('http://lorempixel.com/1444/200/abstract');
+}
+.thumbr{
+	border: 1px #777 solid;
+}
+.m_thumb {
+	margin: 0;
+	padding: 5px;
+}
+.product_title{
+	margin-bottom:50px;
+}
+.product_desc{
+	margin-bottom: 50px;
+}
+.product_price{
+	margin-top: 50px;
+}
+.recent{
+	margin: 5px auto;
 }
 
 /* Media Queries*/
